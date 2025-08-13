@@ -1,0 +1,65 @@
+/* Bài 1 */
+h1{
+    color: red;
+}
+
+.highlight{
+    color: blue;
+}
+
+#special{
+    text-decoration-line: underline;
+}
+
+div.box p{
+    background-color:  yellow;
+}
+
+ul > li {
+    border: 2px solid black;
+}
+
+/* BÀi 2 */
+
+a:hover {
+    color: orange;
+}
+
+button:active {
+    background-color: green;
+}
+
+ul > li:first-child {
+    color: blue;
+}
+
+ol > li:last-child {
+    color: red;
+}
+
+li:nth-child(odd) {
+    background-color: gray;
+}
+
+/* Bài 3 */
+
+h2::before {
+    content: "👉";
+}
+
+li::after {
+    content: "✔";
+}
+
+p::first-letter {
+    font-size: 2rem;
+    color: red;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+     background-color: green;
+}
